@@ -1,0 +1,35 @@
+.ui.menu {
+  margin-bottom: 0px !important;
+}
+body{
+  background: rgba(244,248,254,1);
+background: -moz-linear-gradient(-45deg, rgba(244,248,254,1) 0%, rgba(209,218,227,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(244,248,254,1)), color-stop(100%, rgba(209,218,227,1)));
+background: -webkit-linear-gradient(-45deg, rgba(244,248,254,1) 0%, rgba(209,218,227,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(244,248,254,1) 0%, rgba(209,218,227,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(244,248,254,1) 0%, rgba(209,218,227,1) 100%);
+background: linear-gradient(135deg, rgba(244,248,254,1) 0%, rgba(209,218,227,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f8fe', endColorstr='#d1dae3', GradientType=1 );
+}
+.ql-toolbar{
+  background-color: white;
+}
+.quill {
+  position: absolute;
+  height: calc(100% - 110px);
+  width: 90%;
+  /* Centering  */
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 15px;
+  border-radius: 25px !important;
+
+  -webkit-box-shadow: 5px 5px 17px 5px rgb(185, 200, 213); 
+box-shadow: 5px 5px 17px 5px rgb(185, 200, 213);
+}
+.ql-container {
+  border-radius: 25px !important;
+  background-color: white;
+}
